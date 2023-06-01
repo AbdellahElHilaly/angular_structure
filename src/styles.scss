@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+// pallette :  #f70776 #c3195d #680747 #141010;
+
+$primary-color: #f70776;
+$secondary-color: #c3195d;
+$accent-color: #141010;
+$background-color: #680747;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: $primary-color;
+}
+
+button {
+  background-color: $accent-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
